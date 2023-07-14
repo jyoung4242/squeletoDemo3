@@ -1,0 +1,36 @@
+{
+    "name": "squeleto_demo3",
+    "version": "1.0.0",
+    "description": "my new game project",
+    "main": "index.js",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite",
+        "preview": "vite preview",
+        "server": "ts-node --esm ./src/Server/server.ts"
+    },
+    "type": "module",
+    "keywords": [],
+    "author": "Mookie",
+    "license": "ISC",
+    "dependencies": {
+        "@hathora/client-sdk": "^1.2.0",
+        "@hathora/hathora-cloud-sdk": "^0.0.4",
+        "@hathora/server-sdk": "^1.1.0",
+        "@peasy-lib/peasy-assets": "latest",
+        "@peasy-lib/peasy-engine": "latest",
+        "@peasy-lib/peasy-input": "latest",
+        "@peasy-lib/peasy-states": "latest",
+        "@peasy-lib/peasy-ui": "latest",
+        "dotenv": "^16.3.1",
+        "howler": "latest",
+        "pako": "latest",
+        "uuid": "latest"
+    },
+    "devDependencies": {
+        "json": "latest",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.1.6",
+        "vite": "latest"
+    }
+}
